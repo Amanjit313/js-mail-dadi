@@ -12,7 +12,7 @@
 */
 
 /* 1) Mail */
-/* const email = prompt("Digita la tua email");
+const email = prompt("Digita la tua email");
 
 const emailautorizzate = ["amanjitsingh313@gmail.com", "amanjitsingh2002@gmail.com", "capitanamericacarletto@gmail.com"]
 
@@ -32,7 +32,7 @@ if (emailValido == true){
 
 if (emailValido == false){
   document.getElementById("emailtesto").innerText = "Accesso negato!"
-} */
+}
 
 /* 2) Gioco dei dadi */
 let dadigamesuser = Math.floor((Math.random() * 6) + 1);
